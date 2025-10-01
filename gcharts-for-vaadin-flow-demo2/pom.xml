@@ -3,9 +3,9 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.neotropic.flow.component</groupId>
-    <artifactId>gcharts-flow-demo</artifactId>
-    <name>GCharts Flow Demo</name>
-    <version>24.6.2</version>
+    <artifactId>gcharts-for-vaadin-flow-demo2</artifactId>
+    <name>GCharts Flow Demo2</name>
+    <version>0.1.0</version>
     <packaging>jar</packaging>
 
     <organization>
@@ -14,7 +14,7 @@
     </organization>
 
     <properties>
-        <java.version>17</java.version>
+        <java.version>21</java.version>
         <vaadin.version>24.6.2</vaadin.version>
     </properties>
 
@@ -67,8 +67,8 @@
         </dependency>
         <dependency>
             <groupId>org.neotropic.flow.component</groupId>
-            <artifactId>gcharts-flow</artifactId>
-            <version>24.6.2</version>
+            <artifactId>gcharts-for-vaadin-flow</artifactId>
+            <version>0.1.0</version>
         </dependency>
     </dependencies>
 

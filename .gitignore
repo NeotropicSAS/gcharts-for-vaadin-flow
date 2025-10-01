@@ -1,9 +1,9 @@
-/gcharts-flow/target/
-/gcharts-flow/frontend/generated/
-/gcharts-flow-demo/target/
-/gcharts-flow-demo/frontend/generated/
-/gcharts-flow-demo2/target/
-/gcharts-flow-demo2/frontend/generated/
+/gcharts-for-vaadin-flow/target/
+/gcharts-for-vaadin-flow/frontend/generated/
+/gcharts-for-vaadin-flow-demo/target/
+/gcharts-for-vaadin-flow-demo/frontend/generated/
+/gcharts-for-vaadin-flow-demo2/target/
+/gcharts-for-vaadin-flow-demo2/frontend/generated/
 
 .idea/
 .vscode/
