@@ -4,14 +4,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.neotropic.flow.component</groupId>
-    <artifactId>gcharts-flow</artifactId>
-    <version>2.3.0</version>
+    <artifactId>gcharts-for-vaadin-flow</artifactId>
+    <version>0.1.0</version>
     <name>Google Charts Component for Vaadin Flow</name>
     <description>Implements the basic chart types in a component that can be used within Vaadin Flow applications</description>
 
     <properties>
         <vaadin.version>24.6.2</vaadin.version>
-        <java.version>17</java.version>
+        <java.version>21</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
