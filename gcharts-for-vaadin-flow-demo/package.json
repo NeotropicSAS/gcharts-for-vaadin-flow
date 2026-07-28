@@ -31,18 +31,40 @@
     "@types/react-dom": "18.3.5",
     "@vitejs/plugin-react": "4.3.4",
     "async": "3.2.6",
-    "glob": "10.5.0",
+    "glob": "10.4.5",
     "rollup-plugin-brotli": "3.1.0",
     "rollup-plugin-visualizer": "5.13.1",
     "strip-css-comments": "5.0.0",
     "transform-ast": "2.4.4",
     "typescript": "5.7.3",
-    "vite": "6.0.6",
+    "vite": "6.4.3",
     "vite-plugin-checker": "0.8.0",
-    "workbox-build": "7.3.0",
-    "workbox-core": "7.3.0",
-    "workbox-precaching": "7.3.0"
+    "workbox-build": "7.4.1",
+    "workbox-core": "7.4.1",
+    "workbox-precaching": "7.4.1"
   },
+  "overrides": {
+    "@vaadin/bundles": "$@vaadin/bundles",
+    "@vaadin/polymer-legacy-adapter": "$@vaadin/polymer-legacy-adapter",
+    "@vaadin/vaadin-development-mode-detector": "$@vaadin/vaadin-development-mode-detector",
+    "@vaadin/vaadin-lumo-styles": "$@vaadin/vaadin-lumo-styles",
+    "@vaadin/vaadin-material-styles": "$@vaadin/vaadin-material-styles",
+    "@vaadin/vaadin-themable-mixin": "$@vaadin/vaadin-themable-mixin",
+    "@vaadin/vaadin-usage-statistics": "$@vaadin/vaadin-usage-statistics",
+    "@google-web-components/google-chart": "$@google-web-components/google-chart",
+    "@polymer/polymer": "$@polymer/polymer",
+    "construct-style-sheets-polyfill": "$construct-style-sheets-polyfill",
+    "@vaadin/common-frontend": "$@vaadin/common-frontend",
+    "lit": "$lit",
+    "@vaadin/react-components": "$@vaadin/react-components",
+    "@vaadin/react-components-pro": "$@vaadin/react-components-pro",
+    "react-dom": "$react-dom",
+    "react-router-dom": "$react-router-dom",
+    "react": "$react",
+    "date-fns": "$date-fns",
+    "proj4": "$proj4"
+  },
+  "type": "module",
   "vaadin": {
     "dependencies": {
       "@google-web-components/google-chart": "^4.0.2",
@@ -74,7 +96,7 @@
       "@types/react-dom": "18.3.5",
       "@vitejs/plugin-react": "4.3.4",
       "async": "3.2.6",
-      "glob": "10.5.0",
+      "glob": "10.4.5",
       "rollup-plugin-brotli": "3.1.0",
       "rollup-plugin-visualizer": "5.13.1",
       "strip-css-comments": "5.0.0",
@@ -86,28 +108,6 @@
       "workbox-core": "7.3.0",
       "workbox-precaching": "7.3.0"
     },
-    "hash": "56c97d28e4ef818654d492cc477a11a5714195ea0a536354225865601d1418e0"
-  },
-  "overrides": {
-    "@vaadin/bundles": "$@vaadin/bundles",
-    "@vaadin/polymer-legacy-adapter": "$@vaadin/polymer-legacy-adapter",
-    "@vaadin/vaadin-development-mode-detector": "$@vaadin/vaadin-development-mode-detector",
-    "@vaadin/vaadin-lumo-styles": "$@vaadin/vaadin-lumo-styles",
-    "@vaadin/vaadin-material-styles": "$@vaadin/vaadin-material-styles",
-    "@vaadin/vaadin-themable-mixin": "$@vaadin/vaadin-themable-mixin",
-    "@vaadin/vaadin-usage-statistics": "$@vaadin/vaadin-usage-statistics",
-    "@google-web-components/google-chart": "$@google-web-components/google-chart",
-    "@polymer/polymer": "$@polymer/polymer",
-    "construct-style-sheets-polyfill": "$construct-style-sheets-polyfill",
-    "@vaadin/common-frontend": "$@vaadin/common-frontend",
-    "lit": "$lit",
-    "proj4": "$proj4",
-    "date-fns": "$date-fns",
-    "@vaadin/react-components": "$@vaadin/react-components",
-    "@vaadin/react-components-pro": "$@vaadin/react-components-pro",
-    "react-dom": "$react-dom",
-    "react-router-dom": "$react-router-dom",
-    "react": "$react"
-  },
-  "type": "module"
+    "hash": "cdd3115aebec7c80cc8c108cd37a84f4f9312c9507cc83ab74694da3868718eb"
+  }
 }
